@@ -205,5 +205,5 @@ u.location = "Varies"
 u.meetupdate = "4th Wednesday at 7:00PM"
 u.email = "info@okcmysql.org"
 u.facebook = "https://www.facebook.com/okcmysql"
-u.blurb = "okcmysql.org is designed as an open forum through which users of the MySQL (and related) database can collaborate to grow the local ecosystem."
+u.blurb = "okcmysql.org is an open forum through which users of the MySQL (and related) database can collaborate to grow the local ecosystem"
 u.save
