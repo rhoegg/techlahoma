@@ -80,8 +80,8 @@ u.name = 'oklahoma php'
 u.website = "http://www.meetup.com/OklahomaPHP"
 u.logo_url = "/images/logos/okcphp.jpeg"
 u.twitter = 'OklahomaPHP'
-u.location = "the exchange"
-u.meetupdate = "1st Tuesday"
+u.location = "The 404"
+u.meetupdate = "1st Thursday"
 u.email = ""
 u.blurb = "Oklahoma PHP is focused on helping Oklahoma PHP devs to connect and share ideas. We hope you will join us."
 u.save
@@ -139,4 +139,71 @@ u.location = "Prototek"
 u.meetupdate = "2nd Wednesday at 11:30"
 u.email = "ops@okcpython.org"
 u.blurb = "OKC python is focused on helping Oklahoma Pythonistas to connect and share ideas. We hope you will join us."
+u.save
+
+u = Usergroup.new
+u.name = 'Tulsa Web Devs'
+u.website = "http://tulsawebdevs.org"
+u.logo_url = "/images/logos/tulsa-web-devs.png"
+u.twitter = 'tulsawebdevs'
+u.location = "i2E Tulsa"
+u.meetupdate = "3rd Monday at 6:00pm"
+u.email = "luke.crouch@gmail.com"
+u.blurb = "Tulsa Web Devs are on a mission to make Tulsa one of the best cities in the world for web developers."
+u.save
+
+u = Usergroup.new
+u.name = 'Tulsa WordPress'
+u.website = "http://www.meetup.com/Tulsa-WordPress-meetup/"
+u.logo_url = "/images/logos/tulsa-wordpress.jpeg"
+u.twitter = ''
+u.location = "i2E Tulsa"
+u.meetupdate = "3rd Monday at 6:00pm"
+u.email = ""
+u.blurb = ""
+u.save
+
+u = Usergroup.new
+u.name = 'Code for Tulsa'
+u.website = "http://codefortulsa.org/"
+u.logo_url = "/images/logos/code-for-tulsa.png"
+u.twitter = 'codefortulsa'
+u.location = "i2E Tulsa"
+u.meetupdate = "3rd Monday at 6:00pm"
+u.email = ""
+u.blurb = "We are a Code for America brigade improving Tulsa - one commit at a time."
+u.save
+
+u = Usergroup.new
+u.name = 'Tulsa Java Users Group'
+u.website = "http://www.tulsajava.com/"
+u.logo_url = "/images/logos/tulsa-java.png"
+u.twitter = ''
+u.location = "TCC Southeast"
+u.meetupdate = "2nd Thursday"
+u.email = ""
+u.blurb = ""
+u.save
+
+u = Usergroup.new
+u.name = 'Tulsa .NET Developers'
+u.website = "http://www.tulsadevelopers.net"
+u.logo_url = "/images/logos/tulsa-dnug.gif"
+u.twitter = 'TulsaDNUG'
+u.location = "Warren 2 Building"
+u.meetupdate = "Last Tuesday"
+u.email = ""
+u.blurb = ""
+u.save
+
+u = Usergroup.new
+u.name = 'OKC MySQL'
+u.website = "http://www.okcmysql.org"
+u.logo_url = "/images/logos/okcmysql-logo.png"
+u.twitter = 'okcmysql'
+u.location = "Varies"
+u.meetupdate = "4th Wednesday at 7:00PM"
+u.email = "info@okcmysql.org"
+u.facebook = "https://www.facebook.com/okcmysql"
+u.blurb = "okcmysql.org is designed as an open forum through which users of the MySQL (and related) database can collaborate to grow the local ecosystem."
 u.save
