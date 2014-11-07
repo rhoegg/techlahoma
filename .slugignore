@@ -4,7 +4,6 @@ GOALS.md
 /spec/*
 /features/*
 /test/*
+/script/*
 
-
-.env.development
-.env.test
+.env
