@@ -5,3 +5,4 @@ env:
   - RAILS_ENV=test
 script:
   - bundle exec rake db:setup
+  - bundle exec rake test
