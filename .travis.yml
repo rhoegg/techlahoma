@@ -6,3 +6,5 @@ env:
 script:
   - bundle exec rake db:setup
   - bundle exec rake test
+  - bundle exec rake spec
+  - bundle exec rake cucumber:all
