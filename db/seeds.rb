@@ -207,3 +207,15 @@ u.email = "info@okcmysql.org"
 u.facebook = "https://www.facebook.com/okcmysql"
 u.blurb = "okcmysql.org is an open forum through which users of the MySQL (and related) database can collaborate to grow the local ecosystem"
 u.save
+
+u = Usergroup.new
+u.name = 'Code Norman'
+u.website = 'http://www.codenorman.org'
+u.logo_url = '/images/logos/codenorman-logo.png'
+u.twitter = 'codenorman'
+u.location = 'Varies'
+u.meetupdate = '3rd Saturday at 2:00PM'
+u.email = 'codenormanmeetup@gmail.com'
+u.facebook = ' '
+u.blurb = 'This group is for people who like to code, who like to talk about code, or cannot seem to stop thinking about computers.'
+u.save
