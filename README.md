@@ -20,7 +20,7 @@ Please do!  We love pull requests.
 
 ## Misc
 
-* Ruby version - 2.1.2
+* Ruby version - 2.2.1
 * System dependencies - Postgres
 * Configuration
 * Database creation - `rake db:create`
