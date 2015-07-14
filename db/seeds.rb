@@ -219,3 +219,14 @@ u.email = 'codenormanmeetup@gmail.com'
 u.facebook = ' '
 u.blurb = 'This group is for people who like to code, who like to talk about code, or cannot seem to stop thinking about computers.'
 u.save
+
+u = Usergroup.new
+u.name = 'Code for OKC'
+u.website = "http://codeforokc.org/"
+u.logo_url = "/images/logos/code-for-okc.png"
+u.twitter = 'codeforokc'
+u.location = "Prototek"
+u.meetupdate = "4th Monday at 6:00 PM"
+u.email = ""
+u.blurb = "Code for OKC is a Code for America Brigade helping innovate government and make OKC better using the open web."
+u.save
