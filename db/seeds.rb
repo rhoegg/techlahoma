@@ -227,6 +227,6 @@ u.logo_url = "/images/logos/code-for-okc.png"
 u.twitter = 'codeforokc'
 u.location = "Prototek"
 u.meetupdate = "4th Monday at 6:00 PM"
-u.email = ""
+u.email = "codeforokc@gmail.com"
 u.blurb = "Code for OKC is a Code for America Brigade helping innovate government and make OKC better using the open web."
 u.save
