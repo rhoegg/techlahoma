@@ -25,7 +25,7 @@ class BlogRoll < ActiveRecord::Base
 
 
   def self.parse_feed_normal(feed_uri, blog_id, datefilter)
-    GoogleAjax.referrer = "techlahoma.com"
+    GoogleAjax.referrer = "techlahoma.org"
 
     begin
         feedinfo = GoogleAjax::Feed.load(feed_uri)
