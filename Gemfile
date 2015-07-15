@@ -34,7 +34,6 @@ group :development, :test do
   gem 'quiet_assets'
   gem 'letter_opener' #email gem
 
-  gem 'thin' #not webrick
   gem "bullet" #orm profiling
 
   gem 'dotenv-rails'
@@ -59,7 +58,6 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
-
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
