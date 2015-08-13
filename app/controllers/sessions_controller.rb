@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
   end
 
   def create
-    authentication = Authentication.from_omniauth(env["omniauth.auth"],current_user)
+    authentication = Authentication.from_omniauth(omniauth_params,current_user)
     user = authentication.user
     session[:user_id] = user.id
     redirect_to profile_path, notice: "Signed in!"
@@ -16,5 +16,10 @@ class SessionsController < ApplicationController
   end
 
   def omniauth_failure
+  end
+
+  def omniauth_params
+    # TODO : Fix this to use strong params. This just allows the whole shooting match through.
+    ActiveSupport::HashWithIndifferentAccess.new(env["omniauth.auth"])
   end
 end
