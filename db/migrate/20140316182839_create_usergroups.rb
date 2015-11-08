@@ -1,21 +1,19 @@
 class CreateUsergroups < ActiveRecord::Migration
   def change
-    create_table :usergroups do |t|
+    create_table :usergroups do |table|
 
-         t.string :name, null: false, :limit => 75
-         t.string :blurb, null: false, :limit => 140
-         t.string :logo_url
+         table.string :name, null: false, :limit => 75
+         table.string :blurb, null: false, :limit => 140
+         table.string :logo_url
 
-         t.string :location
-         t.string :twitter
-         t.string :email, null: false, :limit => 75
-         t.string :website, null: false, :limit => 75
-         t.string :facebook
-         t.string :linkedin
+         table.string :location
+         table.string :twitter
+         table.string :email, null: false, :limit => 75
+         table.string :website, null: false, :limit => 75
+         table.string :facebook
+         table.string :linkedin
 
-
-         t.timestamps
-
+         table.timestamps
     end
   end
 end
