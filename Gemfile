@@ -20,10 +20,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder'#, '~> 1.2'
+gem 'jbuilder' # , '~> 1.2'
 
 #parsers
-gem 'googleajax', '~> 1.0.1'
+gem 'googleajax', '~> 1.0.1', require: false
 
 # OmniAuth
 gem "omniauth-github", "~> 1.1.1"
@@ -32,18 +32,21 @@ gem "omniauth-twitter", "~> 1.0.1"
 
 group :development, :test do
   gem 'quiet_assets'
-  gem 'letter_opener' #email gem
+  gem 'letter_opener' # prevent outbound emails
 
-  gem "bullet" #orm profiling
+  gem "bullet" # orm profiling
 
   gem 'dotenv-rails'
   gem 'minitest'
 
-  #gem 'minitest-rails'
+  # gem 'minitest-rails'
   gem "rspec-rails", "~> 2.14.0"
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', require: false
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
+
+  gem 'rubocop', require: false
+  gem "rubycritic", require: false
 end
 
 group :production do
