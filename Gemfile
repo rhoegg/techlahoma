@@ -57,6 +57,9 @@ group :production do
   gem 'unicorn'
 end
 
+group :test do
+  gem 'selenium-webdriver'
+end
 # Code coverage
 gem 'coveralls', require: false
 
