@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.2.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.1.0'
+gem 'rails', '~> 4.2.5.1'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -40,7 +40,7 @@ group :development, :test do
   gem 'minitest'
 
   # gem 'minitest-rails'
-  gem "rspec-rails", "~> 2.14.0"
+  gem "rspec-rails"
   gem 'cucumber-rails', require: false
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
