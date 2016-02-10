@@ -30,7 +30,7 @@ gem "omniauth-github", "~> 1.1.1"
 gem "omniauth-twitter", "~> 1.0.1"
 
 # OAuth Provider
-gem 'doorkeeper', '~> 3.0.0'
+gem 'doorkeeper', '~> 3.1.0'
 
 
 group :development, :test do

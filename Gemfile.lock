@@ -97,7 +97,7 @@ GEM
     docile (1.1.5)
     domain_name (0.5.20160128)
       unf (>= 0.0.5, < 1.0.0)
-    doorkeeper (3.0.0)
+    doorkeeper (3.1.0)
       railties (>= 3.2)
     dotenv (2.1.0)
     dotenv-rails (2.1.0)
@@ -324,7 +324,7 @@ DEPENDENCIES
   coveralls
   cucumber-rails
   database_cleaner
-  doorkeeper (~> 3.0.0)
+  doorkeeper (~> 3.1.0)
   dotenv-rails
   googleajax (~> 1.0.1)
   jbuilder
