@@ -7,6 +7,14 @@ Given(/^a signed in user$/) do
   click_on "Sign In With GitHub"
 end
 
+Given(/^a signed in admin user$/) do
+  visit "/signin"
+  click_on "Sign In With GitHub"
+  user = User.first
+  user.admin = true
+  user.save
+end
+
 Given(/^a user signed in with (.*?)$/) do |service|
   visit "/signin"
   click_on "Sign In With #{service}"
@@ -20,6 +28,12 @@ When(/^they visit their profile$/) do
   visit "/profile"
 end
 
+When(/^they visit the oauth path$/) do
+  visit "/oauth/applications"
+end
+
+
+
 When(/^they remove their (.*?) account$/) do |service|
   click_on "Remove #{service}"
 end
@@ -27,6 +41,10 @@ end
 
 Then(/^they should see "(.*?)"$/) do |text|
   page.should have_content(text)
+end
+
+Then(/^they should not see "(.*?)"$/) do |text|
+  expect(page).not_to have_content(text)
 end
 
 When(/^they sign in with GitHub$/) do
