@@ -1,6 +1,8 @@
 Techlahoma::Application.routes.draw do
 
   use_doorkeeper
+  get "oauth/me" => "oauth/users#me"
+
   get "user_group/index"
   scope path: '/buzz', controller: :buzz do
     get "/" => :index
