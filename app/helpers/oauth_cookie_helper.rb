@@ -2,7 +2,7 @@ module OauthCookieHelper
 
   def env_domain
     domain = ENV['COOKIE_DOMAIN'] || 'localhost'
-    domain == "localhost" ? :all : [domain]
+    domain == :all # "localhost" ? :all : [domain]
   end
 
   def set_user_cookie(user)
