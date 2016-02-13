@@ -32,6 +32,9 @@ Techlahoma::Application.routes.draw do
 
   resources :authentications, :only => [:destroy]
 
+  namespace "admin" do
+    resources :users, :except => [:new]
+  end
 
   namespace "api" do#, :path => "", :constraints => {:subdomain => ["api", "stageapi"]}, :default => {:format => :json} do
     get "/" => "docs#index"
