@@ -230,3 +230,15 @@ u.meetupdate = "4th Monday at 6:00 PM"
 u.email = "codeforokc@gmail.com"
 u.blurb = "Code for OKC is a Code for America Brigade helping innovate government and make OKC better using the open web."
 u.save
+
+u = Usergroup.new
+u.name = 'Refresh OKC'
+u.website = 'http://refreshokc.org'
+u.logo_url = '/images/logos/refreshokc.png'
+u.twitter = 'RefreshOKC'
+u.location = 'The 404'
+u.meetupdate = 'Last Tuesday at 6:30pm'
+u.email = 'chat@refreshokc.org'
+u.facebook = ' '
+u.blurb = 'Where we strive to bring news & knowledge of today’s most exciting trends and information in the field of Web Design.'
+u.save
